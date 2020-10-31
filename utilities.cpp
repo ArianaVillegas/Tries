@@ -14,9 +14,10 @@ void findFiles(string init_path, string ext){
 bool cmpFiles(string file_a, string file_b){
 	string command = "diff -w \"" + file_a + "\" \"" + file_b + "\" > cmp.txt";
 	system(command.c_str());
-	ifstream infile("cmp.txt");
+	ifstream infile("cmp.txt",std::ifstream::ate | std::ifstream::binary);
 	int size = infile.tellg(); 
 	system("rm cmp.txt");
+
 	return (size)?0:1;
 }
 
