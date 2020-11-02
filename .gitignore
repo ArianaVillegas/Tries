@@ -2,3 +2,6 @@ a.out
 CMakeLists.txt
 cmake-build-debug/
 .idea/
+.vscode/
+data.db
+main
