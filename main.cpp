@@ -9,19 +9,19 @@ int main () {
   
 	//system("find \"$HOME/Documents/Laptop\" -type f -name \"*.pdf\" > files.txt");
 
-	findFiles("Documents/","pdf");
+	findFiles("Documents/","txt");
 	insertRecords();
 
 	PrefixTree prefixTree;
 	prefixTree.addFiles();
-	prefixTree.find("book");
-	prefixTree.find("book2");
+	prefixTree.find("CMakeCache");
+	prefixTree.find("link");
 
 	TSTrie tsTrie;
 	tsTrie.addFiles();
-	tsTrie.find("book");
-	tsTrie.find("book2");
-	tsTrie.find("booka");
+	tsTrie.find("CMakeCache");
+	tsTrie.find("link");
+	tsTrie.find("linka");
 
 
 	return 0;

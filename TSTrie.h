@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include "Record.h"
 using namespace std;
 class TSTrie
@@ -10,13 +11,12 @@ class TSTrie
         Node* right = nullptr;
         Node* middle = nullptr;
         bool isTerminal = true;
-        unsigned long position = -1;
-
+        vector<unsigned long> paths_pos;
         void show(int pos) {
             if (isTerminal && !middle) {
-                cout << " @" << endl;
+                cout << " @" << paths_pos.size() << endl;
             } else {
-                if (isTerminal) cout << "@";
+                if (isTerminal) cout << "@" << paths_pos.size();
                 if (right) {
                     right->show(pos + 1);
                 }
@@ -44,9 +44,7 @@ class TSTrie
             if (node->isTerminal && !node->middle) {
                     node->value = name[i];
                     node->isTerminal = false;
-                    node->position = -1;
                     Node* terminal = new Node();
-                    terminal->position = position;
                     node->middle = terminal;
                     node = node->middle;
             } else if (node->value < name[i]) {
@@ -56,7 +54,6 @@ class TSTrie
                     newNode->isTerminal = false;
                     node->right = newNode;
                     Node* terminal = new Node();
-                    terminal->position = position;
                     newNode->middle = terminal;
                     node = newNode->middle;
                 } else {
@@ -71,7 +68,6 @@ class TSTrie
                     newNode->isTerminal = false;
                     node->left = newNode;
                     Node* terminal = new Node();
-                    terminal->position = position;
                     newNode->middle = terminal;
                     node = newNode->middle;
                 } else {
@@ -82,8 +78,10 @@ class TSTrie
         }
         if (!node->isTerminal) {
             node->isTerminal = true;
-            node->position = position;
-            }
+           
+        } 
+         node->paths_pos.push_back(position);
+        
     }
 
 	void find(string name, Node* node){
@@ -107,10 +105,15 @@ class TSTrie
         if (!node->isTerminal) cout << "File not found\n";
 		else {
             fstream infile("data.db");
-            Record r;
-            infile.seekg(node->position);
-            infile.read((char*)&r, sizeof(Record));
-            cout << node->position << ") " << r.name << '\n';           
+            int idx = 0;
+            for (auto path:node->paths_pos) {
+                Record r;
+                infile.seekg(path);
+                infile.read((char*)&r, sizeof(Record));
+                cout << idx << ") " << r.name << '\n';   
+                idx++;
+            }
+            
         }
 	}
 
