@@ -1,3 +1,6 @@
+#ifndef RECORD_HH
+#define RECORD_HH
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -21,3 +24,5 @@ void insertRecords(){
 	outfile.close();
 	system("rm files.txt");
 };
+
+#endif
