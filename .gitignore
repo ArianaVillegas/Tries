@@ -1,4 +1,7 @@
+*.out
+CMakeLists.txt
+cmake-build-debug/
+.idea/
 .vscode/
-a.out
 data.db
 main

@@ -1,3 +1,6 @@
+#ifndef UTILITIES
+#define UTILITIES
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -21,3 +24,4 @@ bool cmpFiles(string file_a, string file_b){
 	return (size)?0:1;
 }
 
+#endif
