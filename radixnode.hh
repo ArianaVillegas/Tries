@@ -46,6 +46,14 @@ struct RadixNode {
         content = content.substr(i);
         return replace_parent(node);
     }
+
+    long memsize() {
+        return sizeof(bool) +
+                sizeof(std::vector<unsigned long>) + (sizeof(unsigned long) * dirs.size()) +
+                sizeof(std::string) + (content.size()) +
+                sizeof(std::unordered_map<char, RadixNode*>) + children.size() * (sizeof(char) + sizeof(RadixNode*)) +
+                sizeof(RadixNode*);
+    }
 };
 
 #endif
