@@ -8,16 +8,16 @@ using namespace std;
 
 void tester() {
 	insertRecords();
-	std::cout << "====== INSERTION ======" << std::endl;
-	std::cout << "PREFIX" << std::endl;
-	PrefixTree prefixTree;
-	prefixTree.addFiles();
-	
-	std::cout << "\nTERNARY" << std::endl;
-	TSTrie tsTrie;
-	tsTrie.startMeasures();
-	tsTrie.addFiles();
-	tsTrie.endMeasures();
+//	std::cout << "====== INSERTION ======" << std::endl;
+//	std::cout << "PREFIX" << std::endl;
+//	PrefixTree prefixTree;
+//	prefixTree.addFiles();
+//
+//	std::cout << "\nTERNARY" << std::endl;
+//	TSTrie tsTrie;
+//	tsTrie.startMeasures();
+//	tsTrie.addFiles();
+//	tsTrie.endMeasures();
 	
 	std::cout << "\nRADIX" << std::endl;
 	RadixTree radixTree("data.db");
@@ -25,13 +25,13 @@ void tester() {
 	radixTree.addFiles();
 	radixTree.endMeasures();
 
-	std::cout << "====== FIND ======" << std::endl;
-	std::cout << "PREFIX" << std::endl;
-	
-	std::cout << "\nTERNARY" << std::endl;
-	tsTrie.startMeasures();
-	tsTrie.findFiles("test.txt", true);
-	tsTrie.endMeasures();
+//	std::cout << "====== FIND ======" << std::endl;
+//	std::cout << "PREFIX" << std::endl;
+//
+//	std::cout << "\nTERNARY" << std::endl;
+//	tsTrie.startMeasures();
+//	tsTrie.findFiles("test.txt", true);
+//	tsTrie.endMeasures();
 	
 	std::cout << "\nRADIX" << std::endl;
     radixTree.startMeasures();
