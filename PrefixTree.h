@@ -48,7 +48,7 @@ private:
 		}
 	}
 
-	void find(string name, Node* init){
+	void find(string name, Node* init, bool partial = false){
 		int size = name.size();
 		for(int i=0; i<size; i++){
 			auto itr = init->children.find(name[i]);
@@ -60,20 +60,38 @@ private:
 			}
 		}
 
-		ifstream infile("data.db");
-		Record r;
-		vector<string> paths;
-		int idx = 0;
-		for(int pos:init->word_pos){
-			infile.seekg(pos);
-			infile.read((char*)&r, sizeof(Record));
-			paths.push_back(r.name);
-			cout << idx << ") " << r.name << '\n';
-			idx++;
+		long idx = 0;
+		if(partial) dfs(init, idx);
+		else {
+			ifstream infile("data.db");
+			Record r;
+			vector<string> paths;
+			for(int pos:init->word_pos){
+				infile.seekg(pos);
+				infile.read((char*)&r, sizeof(Record));
+				paths.push_back(r.name);
+				cout << idx << ") " << r.name << '\n';
+				idx++;
+			}
 		}
-
-		findEqual(paths);
 	}
+
+	void dfs(Node* cur, long &idx) {
+        if(!cur) return;
+        if(cur->children.empty()) print_cur(cur, idx++);
+        for(auto [ c, child ] : cur->children)
+            dfs(child, idx);
+    }
+
+    void print_cur(Node* cur, long idx) {
+        std::ifstream file("data.db", std::ios::binary);
+        for(auto dir : cur->word_pos) {
+            file.seekg(dir);
+            Record r{};
+            file.read((char*)&r, sizeof(r));
+            cout << idx << ") " << r.name << std::endl;
+        }
+    }
 
 public:
 
@@ -88,8 +106,8 @@ public:
 		insert(name, pos, init);
 	};
 
-	void find(string name){
-		find(name, init);
+	void find(string name, bool partial = false){
+		find(name, init, partial);
 	}
 
 	void addFiles(){
