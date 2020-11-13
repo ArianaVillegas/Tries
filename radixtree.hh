@@ -120,11 +120,12 @@ class RadixTree {
         tStart = clock();
     }
 
-    double endMeasures() {
+    std::pair<double, long> endMeasures() {
         tEnd = clock();
         auto timeTaken = double(tEnd - tStart)/CLOCKS_PER_SEC;
-        std::cout << "Time taken: " << timeTaken << " s" << std::endl;
-        return timeTaken;
+        auto s = memsize();
+        std::cout << "Time taken: " << timeTaken << " s , Total size: " << s << " B" << std::endl;
+        return {timeTaken, s};
     }
 };
 
