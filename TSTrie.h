@@ -43,7 +43,8 @@ class TSTrie
         for (int i = 0; i < size; i++) {
             if (node->isTerminal && !node->middle) {
                     node->value = name[i];
-                    node->isTerminal = false;
+                    if (node->paths_pos.empty())
+                        node->isTerminal = false;
                     Node* terminal = new Node();
                     node->middle = terminal;
                     node = node->middle;
@@ -117,6 +118,41 @@ class TSTrie
         }
 	}
 
+    void findPartially(string name, Node* node){
+		int size = (int) name.size();
+		for(int i = 0; i < size; i++) {
+            if (node->value == name[i]) {
+                node = node->middle;
+            } else if (node->value < name[i]) {
+                node = node->right;
+                i--;
+
+            } else if (node->value > name[i]) {
+                node = node->left;
+                i--;
+            }
+		}
+        bfs(node);
+	}
+
+    void bfs(Node* node) {
+        if (node->isTerminal) {
+            fstream infile("data.db");
+            int idx = 0;
+            for (auto path:node->paths_pos) {
+                Record r;
+                infile.seekg(path);
+                infile.read((char*)&r, sizeof(Record));
+                cout << idx << ") " << r.name << '\n';   
+                idx++;
+            }
+        } 
+        if (node->left) bfs(node->left);
+        if (node->middle) bfs(node->middle);
+        if (node->right) bfs(node->right);  
+        
+    }
+
 public:
     TSTrie() {
         root = new Node();
@@ -141,8 +177,9 @@ public:
 		}
 	};
 
-    void find(string name) {
-        find(name, root);
+    void find(string name, bool partial = false) {
+        if (partial) findPartially(name, root);
+        else find(name, root);
     } 
 
     void show() {
