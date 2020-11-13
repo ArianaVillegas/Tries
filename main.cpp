@@ -6,25 +6,48 @@
 
 using namespace std;
 
-int main () {
-  
-	findFiles("Documents/","pdf");
+void tester() {
 	insertRecords();
-//    std::cout << "PREFIX" << std::endl;
-//	PrefixTree prefixTree;
-//	prefixTree.addFiles();
-//	// prefixTree.find("CMakeCache");
-//	prefixTree.find("Informe");
-//    std::cout << "\nTERNARY" << std::endl;
-//	TSTrie tsTrie;
-//	tsTrie.addFiles();
-//	// tsTrie.find("CMakeCache");
-//	tsTrie.find("Informe");
-//    std::cout << "\nRADIX" << std::endl;
+	std::cout << "====== INSERTION ======" << std::endl;
+	std::cout << "PREFIX" << std::endl;
+	PrefixTree prefixTree;
+	prefixTree.addFiles();
+	
+	std::cout << "\nTERNARY" << std::endl;
+	TSTrie tsTrie;
+	tsTrie.startMeasures();
+	tsTrie.addFiles();
+	tsTrie.endMeasures();
+	
+	std::cout << "\nRADIX" << std::endl;
 	RadixTree radixTree("data.db");
+	radixTree.startMeasures();
 	radixTree.addFiles();
-	// radixTree.find("CMakeCache");
-    radixTree.find("Inf", true);
+	radixTree.endMeasures();
 
+	std::cout << "====== FIND EXACTLY ======" << std::endl;
+	std::cout << "PREFIX" << std::endl;
+	
+	std::cout << "\nTERNARY" << std::endl;
+	tsTrie.startMeasures();
+	tsTrie.findFiles("query.txt");
+	tsTrie.endMeasures();
+	
+	std::cout << "\nRADIX" << std::endl;
+
+	std::cout << "====== FIND PARTIALLY ======" << std::endl;
+	std::cout << "PREFIX" << std::endl;
+
+	std::cout << "\nTERNARY" << std::endl;
+	tsTrie.startMeasures();
+	tsTrie.findFiles("query_partially.txt", true);
+	tsTrie.endMeasures();
+	std::cout << "\nRADIX" << std::endl;
+
+	
+}
+
+int main () {
+	tester();
 	return 0;
 }

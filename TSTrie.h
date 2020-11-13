@@ -188,9 +188,9 @@ class TSTrie
                 idx++;
             }
         } 
-        if (node->left) dfs(node->left);
-        if (node->middle) dfs(node->middle);
-        if (node->right) dfs(node->right);  
+        if (node->left) dfs(node->left, paths);
+        if (node->middle) dfs(node->middle, paths);
+        if (node->right) dfs(node->right, paths);  
         
     }
 
