@@ -44,17 +44,17 @@ class RadixTree {
         findEqual(paths);
     }
 
-    void dfs(RadixNode* cur) {
+    void dfs(RadixNode* cur, bool print = true) {
         if(!cur) return;
         _memsize += cur->memsize();
-        if(cur->finalNode) print_cur(cur);
+        if(cur->finalNode) if(print) print_cur(cur);
         for(auto [ c, child ] : cur->children)
-            dfs(child);
+            dfs(child, print);
     }
 
     long memsize() {
         _memsize = 0;
-        dfs(root);
+        dfs(root, false);
         return _memsize + sizeof(long) + sizeof(std::string) + datafile.size() + sizeof(root) + root->memsize();
     }
 
