@@ -8,23 +8,23 @@ using namespace std;
 
 int main () {
   
-	findFiles("Documents/","txt");
+	findFiles("Documents/","pdf");
 	insertRecords();
     std::cout << "PREFIX" << std::endl;
 	PrefixTree prefixTree;
 	prefixTree.addFiles();
-	prefixTree.find("CMakeCache");
-	prefixTree.find("link");
+	// prefixTree.find("CMakeCache");
+	prefixTree.find("Informe");
     std::cout << "\nTERNARY" << std::endl;
 	TSTrie tsTrie;
 	tsTrie.addFiles();
-	tsTrie.find("CMakeCache");
-	tsTrie.find("link");
+	// tsTrie.find("CMakeCache");
+	tsTrie.find("Informe");
     std::cout << "\nRADIX" << std::endl;
 	RadixTree radixTree("data.db");
 	radixTree.addFiles();
-	radixTree.find("CMakeCache");
-    radixTree.find("link");
+	// radixTree.find("CMakeCache");
+    radixTree.find("Informe");
 
 	return 0;
 }

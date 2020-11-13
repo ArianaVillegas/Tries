@@ -9,11 +9,11 @@ struct Record{
 };
 
 void insertRecords(){
-	ifstream infile("files.txt");
+	std::ifstream infile("files.txt");
 	system("rm data.db");
-	ofstream outfile("data.db", ios::binary | ios::app);
-	string line;
-	while (getline(infile, line)){
+	std::ofstream outfile("data.db", std::ios::binary | std::ios::app);
+	std::string line;
+	while (std::getline(infile, line)){
 		Record r;
 		strcpy(r.name, line.c_str());
 	    outfile.write((char*)&r, sizeof(Record));
