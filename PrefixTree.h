@@ -11,6 +11,7 @@ private:
 	// 26 letras may, 26 min, 4 caracteres especiales
 	struct Node{
 		char value;
+		bool isTerminal = false;
 		map<char,Node*> children;
 		vector<int> word_pos;
 
@@ -47,9 +48,10 @@ private:
 				init->word_pos.push_back(pos);
 			}
 		}
+		init->isTerminal = true;
 	};
 
-	void findEqual(vector<string> paths){
+	void findEqual(vector<string> paths, ofstream &fileout){
 		bool f;
 		int size = paths.size();
 		map<int,vector<int>> files;
@@ -68,13 +70,13 @@ private:
 			if(pp.second.size() == 1) 
 				continue;
 			for(int idx:pp.second){
-				cout << idx << ", ";
+				fileout << idx << ", ";
 			}
-			cout << " are EQUAL.\n";
+			fileout << " are EQUAL.\n";
 		}
 	}
 
-	void find(string name, Node* init, bool partial = false){
+	void find(string name, Node* init, ofstream &fileout, bool partial = false){
 		int size = name.size();
 		for(int i=0; i<size; i++){
 			auto itr = init->children.find(name[i]);
@@ -89,7 +91,7 @@ private:
 		long idx = 0;
 		vector<string> paths;
 		if(partial){
-			dfs(init, idx, paths);
+			dfs(init, idx, paths, fileout);
 		} else {
 			ifstream infile("data.db");
 			Record r;
@@ -97,21 +99,21 @@ private:
 				infile.seekg(pos);
 				infile.read((char*)&r, sizeof(Record));
 				paths.push_back(r.name);
-				cout << idx << ") " << r.name << '\n';
+				fileout << idx << ") " << r.name << '\n';
 				idx++;
 			}
 		}
 
-		findEqual(paths);
+		findEqual(paths, fileout);
 	}
 
-	void dfs(Node* cur, long &idx, vector<string> &paths) {
+	void dfs(Node* cur, long &idx, vector<string> &paths, ofstream &fileout) {
         if(!cur) return;
-        if(cur->children.empty()){
-        	print_cur(cur, idx, paths);
+        if(cur->isTerminal){
+        	print_cur(cur, idx, paths, fileout);
         } 
         for(auto [ c, child ] : cur->children)
-            dfs(child, idx, paths);
+            dfs(child, idx, paths, fileout);
     }
 
     void dfs_size(Node* cur) {
@@ -127,14 +129,14 @@ private:
         return totalSize + sizeof(long) + sizeof(init) + init->memsize();
     }
 
-    void print_cur(Node* cur, long &idx, vector<string> &paths) {
+    void print_cur(Node* cur, long &idx, vector<string> &paths, ofstream &fileout) {
         std::ifstream file("data.db", std::ios::binary);
         for(auto dir : cur->word_pos) {
             file.seekg(dir);
             Record r{};
             file.read((char*)&r, sizeof(r));
             paths.push_back(r.name);
-            cout << idx++ << ") " << r.name << std::endl;
+            fileout << idx++ << ") " << r.name << std::endl;
         }
     }
 
@@ -152,7 +154,8 @@ public:
 	};
 
 	void find(string name, bool partial = false){
-		find(name, init, partial);
+		ofstream fileout("prefixtree_result.txt", ios::app);
+		find(name, init, fileout, partial);
 	};
 
 	void addFiles(){
@@ -184,9 +187,10 @@ public:
     };
 
     void findFiles(string filename, bool partial = false){
+        system("rm prefixtree_result.txt");
         ifstream infile(filename);
         string query;
-        while(infile >> query) {
+        while(getline(infile, query)) {
             find(query, partial);
         }
         infile.close();

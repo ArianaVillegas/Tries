@@ -41,7 +41,7 @@ class RadixTree {
             paths.push_back(r.name);
             out << idx++ << ") " << r.name << std::endl;
         }
-        findEqual(paths);
+        findEqual(paths, out);
     }
 
     void dfs(RadixNode* cur, std::ofstream& out, bool print = true) {
@@ -52,10 +52,16 @@ class RadixTree {
             dfs(child, out, print);
     }
 
+    void dfs_size(RadixNode* cur) {
+        if(!cur) return;
+        _memsize += cur->memsize();
+        for(auto [ c, child ] : cur->children)
+            dfs_size(child);
+    }
+
     long memsize() {
         _memsize = 0;
-        std::ofstream out("radixtree_result.txt");
-        dfs(root, out, false);
+        dfs_size(root);
         return _memsize + sizeof(long) + sizeof(std::string) + datafile.size() + sizeof(root) + root->memsize();
     }
 
@@ -134,7 +140,7 @@ class RadixTree {
         return {timeTaken, s};
     }
 
-    void findEqual(std::vector<std::string> paths){
+    void findEqual(std::vector<std::string> paths, std::ofstream& out){
         bool f;
         int size = paths.size();
         std::map<int,std::vector<int>> files;
@@ -153,9 +159,9 @@ class RadixTree {
             if(pp.second.size() == 1)
                 continue;
             for(int idx:pp.second){
-                cout << idx << ", ";
+                out << idx << ", ";
             }
-            cout << " are EQUAL.\n";
+            out << " are EQUAL.\n";
         }
     }
 
