@@ -226,7 +226,7 @@ public:
     void findFiles(string filename, bool partial = false){
         ifstream infile(filename);
         string query;
-        while(infile >> query) {
+        while(getline(infile, query)) {
             find(query, partial);
         }
         infile.close();

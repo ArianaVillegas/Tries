@@ -314,8 +314,7 @@
 /home/suro/.local/share/Trash/files/cover_letter (1).pdf
 /home/suro/.local/share/Trash/files/files.pdf
 /home/suro/.local/share/Trash/files/ArianaVillegas_CV.5.pdf
-/home/suro/.local/share/Trash/files/Deep Learning with Microfluidics for
-Biotechnology.pdf
+/home/suro/.local/share/Trash/files/Deep Learning with Microfluidics for Biotechnology.pdf
 /home/suro/.local/share/Trash/files/ArianaVillegas_CV.3.pdf
 /home/suro/.local/share/Trash/files/ArianaVillegas_CV.4.pdf
 /home/suro/.local/share/Trash/files/ArianaVillegas_CV.2.pdf
