@@ -10,10 +10,10 @@
 
 class RadixTree {
     private:
-        long _memsize = 0;
-        clock_t tStart, tEnd;
-        std::string datafile;
-        RadixNode* root = 0;
+    long _memsize = 0;
+    clock_t tStart, tEnd;
+    std::string datafile;
+    RadixNode* root = 0;
     
     void find(std::string str, RadixNode* cur, int i = 0, bool partial = false) {
         if(str == "") {
@@ -32,12 +32,16 @@ class RadixTree {
 
     void print_cur(RadixNode* cur) {
         std::ifstream file(this->datafile, std::ios::binary);
+        int idx;
+        std::vector<std::string> paths;
         for(auto dir : cur->dirs) {
             file.seekg(dir);
             Record r{};
             file.read((char*)&r, sizeof(r));
-            std::cout << r.name << std::endl;
+            paths.push_back(r.name);
+            std::cout << ++idx << ") " << r.name << std::endl;
         }
+        findEqual(paths);
     }
 
     void dfs(RadixNode* cur) {
@@ -46,6 +50,12 @@ class RadixTree {
         if(cur->finalNode) print_cur(cur);
         for(auto [ c, child ] : cur->children)
             dfs(child);
+    }
+
+    long memsize() {
+        _memsize = 0;
+        dfs(root);
+        return _memsize + sizeof(long) + sizeof(std::string) + datafile.size() + sizeof(root) + root->memsize();
     }
 
     public:
@@ -110,12 +120,6 @@ class RadixTree {
         }
     }
 
-    long memsize() {
-        _memsize = 0;
-        dfs(root);
-        return _memsize + sizeof(long) + sizeof(std::string) + datafile.size() + sizeof(root) + root->memsize();
-    }
-
     void startMeasures() {
         tStart = clock();
     }
@@ -126,6 +130,31 @@ class RadixTree {
         auto s = memsize();
         std::cout << "Time taken: " << timeTaken << " s , Total size: " << s << " B" << std::endl;
         return {timeTaken, s};
+    }
+
+    void findEqual(std::vector<std::string> paths){
+        bool f;
+        int size = paths.size();
+        std::map<int,std::vector<int>> files;
+        for(int i=0; i<size; i++){
+            f = 0;
+            for(auto pp:files){
+                if(cmpFiles(paths[i], paths[pp.first])){
+                    files[pp.first].push_back(i);
+                    f = 1;
+                    break;
+                }
+            }
+            if(!f) files[i].push_back(i);
+        }
+        for(auto pp:files){
+            if(pp.second.size() == 1)
+                continue;
+            for(int idx:pp.second){
+                cout << idx << ", ";
+            }
+            cout << " are EQUAL.\n";
+        }
     }
 };
 
