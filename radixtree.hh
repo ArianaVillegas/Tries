@@ -13,25 +13,36 @@ class RadixTree {
         std::string datafile;
         RadixNode* root = 0;
     
-    void find(std::string str, RadixNode* cur, int i = 0) {
-        if(str == "" && cur->content.size() == i && cur->finalNode) {
-            std::ifstream file(this->datafile, std::ios::binary);
-            for(auto dir : cur->dirs) {
-                file.seekg(dir);
-                Record r{};
-                file.read((char*)&r, sizeof(r));
-                std::cout << r.name << std::endl;
-            }
-            return;
+    void find(std::string str, RadixNode* cur, int i = 0, bool partial = false) {
+        if(str == "") {
+            if(partial) return dfs(cur);
+            if(cur->content.size() == i && cur->finalNode) return print_cur(cur);
         }
         if(cur->content == "" && cur->children[str[0]])
-            return find(str, cur->children[str[0]], i);
+            return find(str, cur->children[str[0]], i, partial);
         if(str[0] == cur->content[i])
-            return find(str.substr(1), cur, i + 1);
+            return find(str.substr(1), cur, i + 1, partial);
         if(!cur->children[str[0]])
             std::cout << "No existe el archivo" << std::endl;
         else
-            find(str, cur->children[str[0]], 0);
+            find(str, cur->children[str[0]], 0, partial);
+    }
+
+    void print_cur(RadixNode* cur) {
+        std::ifstream file(this->datafile, std::ios::binary);
+        for(auto dir : cur->dirs) {
+            file.seekg(dir);
+            Record r{};
+            file.read((char*)&r, sizeof(r));
+            std::cout << r.name << std::endl;
+        }
+    }
+
+    void dfs(RadixNode* cur) {
+        if(!cur) return;
+        if(cur->finalNode) print_cur(cur);
+        for(auto [ c, child ] : cur->children)
+            dfs(child);
     }
 
     public:
@@ -77,8 +88,8 @@ class RadixTree {
             return cur->add_child(new RadixNode(word, dir));
         }
 
-        void find(std::string str) {
-            find(str, root);
+        void find(std::string str, bool partial = false) {
+            find(str, root, 0, partial);
         }
 
         void addFiles(){

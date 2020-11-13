@@ -10,21 +10,21 @@ int main () {
   
 	findFiles("Documents/","pdf");
 	insertRecords();
-    std::cout << "PREFIX" << std::endl;
-	PrefixTree prefixTree;
-	prefixTree.addFiles();
-	// prefixTree.find("CMakeCache");
-	prefixTree.find("Informe");
-    std::cout << "\nTERNARY" << std::endl;
-	TSTrie tsTrie;
-	tsTrie.addFiles();
-	// tsTrie.find("CMakeCache");
-	tsTrie.find("Informe");
-    std::cout << "\nRADIX" << std::endl;
+//    std::cout << "PREFIX" << std::endl;
+//	PrefixTree prefixTree;
+//	prefixTree.addFiles();
+//	// prefixTree.find("CMakeCache");
+//	prefixTree.find("Informe");
+//    std::cout << "\nTERNARY" << std::endl;
+//	TSTrie tsTrie;
+//	tsTrie.addFiles();
+//	// tsTrie.find("CMakeCache");
+//	tsTrie.find("Informe");
+//    std::cout << "\nRADIX" << std::endl;
 	RadixTree radixTree("data.db");
 	radixTree.addFiles();
 	// radixTree.find("CMakeCache");
-    radixTree.find("Informe");
+    radixTree.find("Inf", true);
 
 	return 0;
 }
