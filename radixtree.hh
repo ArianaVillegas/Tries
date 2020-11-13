@@ -156,6 +156,15 @@ class RadixTree {
             cout << " are EQUAL.\n";
         }
     }
+
+    void findFiles(std::string filename, bool partial = false){
+        std::ifstream infile(filename);
+        std::string query;
+        while(infile >> query) {
+            find(query, partial);
+        }
+        infile.close();
+    }
 };
 
 

@@ -25,7 +25,7 @@ void tester() {
 	radixTree.addFiles();
 	radixTree.endMeasures();
 
-	std::cout << "====== FIND EXACTLY ======" << std::endl;
+	std::cout << "====== FIND ======" << std::endl;
 	std::cout << "PREFIX" << std::endl;
 	
 	std::cout << "\nTERNARY" << std::endl;
@@ -34,17 +34,9 @@ void tester() {
 	tsTrie.endMeasures();
 	
 	std::cout << "\nRADIX" << std::endl;
-
-	std::cout << "====== FIND PARTIALLY ======" << std::endl;
-	std::cout << "PREFIX" << std::endl;
-
-	std::cout << "\nTERNARY" << std::endl;
-	tsTrie.startMeasures();
-	tsTrie.findFiles("test_partially.txt", true);
-	tsTrie.endMeasures();
-	std::cout << "\nRADIX" << std::endl;
-
-	
+    radixTree.startMeasures();
+    radixTree.findFiles("test.txt");
+    radixTree.endMeasures();
 }
 
 int main () {
