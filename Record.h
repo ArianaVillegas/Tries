@@ -20,5 +20,5 @@ void insertRecords(){
 	}
 	infile.close();
 	outfile.close();
-	system("rm files.txt");
+	//system("rm files.txt");
 };
