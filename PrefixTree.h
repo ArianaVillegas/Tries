@@ -2,7 +2,7 @@
 #include <string>
 #include <fstream>
 #include <vector>
-#include <unordered_map>
+#include <map>
 #include "Record.h"
 
 class PrefixTree{
@@ -11,7 +11,7 @@ private:
 	// 26 letras may, 26 min, 4 caracteres especiales
 	struct Node{
 		char value;
-		unordered_map<char,Node*> children;
+		map<char,Node*> children;
 		vector<int> word_pos;
 	};	
 
@@ -38,13 +38,27 @@ private:
 	};
 
 	void findEqual(vector<string> paths){
+		bool f;
 		int size = paths.size();
-		for(int i=0; i<size-1; i++){
-			for(int j=i+1; j<size; j++){
-				if(cmpFiles(paths[i], paths[j])){
-					cout << i << " and " << j << " are EQUAL.\n";
+		map<int,vector<int>> files;
+		for(int i=0; i<size; i++){
+			f = 0;
+			for(auto pp:files){
+				if(cmpFiles(paths[i], paths[pp.first])){
+					files[pp.first].push_back(i);
+					f = 1;
+					break;
 				}
 			}
+			if(!f) files[i].push_back(i);
+		}
+		for(auto pp:files){
+			if(pp.second.size() == 1) 
+				continue;
+			for(int idx:pp.second){
+				cout << idx << ", ";
+			}
+			cout << " are EQUAL.\n";
 		}
 	}
 
@@ -61,11 +75,12 @@ private:
 		}
 
 		long idx = 0;
-		if(partial) dfs(init, idx);
-		else {
+		vector<string> paths;
+		if(partial){
+			dfs(init, idx, paths);
+		} else {
 			ifstream infile("data.db");
 			Record r;
-			vector<string> paths;
 			for(int pos:init->word_pos){
 				infile.seekg(pos);
 				infile.read((char*)&r, sizeof(Record));
@@ -74,22 +89,27 @@ private:
 				idx++;
 			}
 		}
+
+		findEqual(paths);
 	}
 
-	void dfs(Node* cur, long &idx) {
+	void dfs(Node* cur, long &idx, vector<string> &paths) {
         if(!cur) return;
-        if(cur->children.empty()) print_cur(cur, idx++);
+        if(cur->children.empty()){
+        	print_cur(cur, idx, paths);
+        } 
         for(auto [ c, child ] : cur->children)
-            dfs(child, idx);
+            dfs(child, idx, paths);
     }
 
-    void print_cur(Node* cur, long idx) {
+    void print_cur(Node* cur, long &idx, vector<string> &paths) {
         std::ifstream file("data.db", std::ios::binary);
         for(auto dir : cur->word_pos) {
             file.seekg(dir);
             Record r{};
             file.read((char*)&r, sizeof(r));
-            cout << idx << ") " << r.name << std::endl;
+            paths.push_back(r.name);
+            cout << idx++ << ") " << r.name << std::endl;
         }
     }
 

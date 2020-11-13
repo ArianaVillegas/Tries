@@ -37,24 +37,32 @@ class TSTrie
     };
     
     Node* root; //main node
+    // Exection time and disk access
+    clock_t tStart, tEnd;
+    double timeTaken;
+    long totalSize;
 
     void insert(string name, Node* node, unsigned long position) {
         int size = (int) name.size();
+        totalSize += sizeof(size);
         for (int i = 0; i < size; i++) {
             if (node->isTerminal && !node->middle) {
                     node->value = name[i];
                     if (node->paths_pos.empty())
                         node->isTerminal = false;
                     Node* terminal = new Node();
+                    totalSize += sizeof(terminal);
                     node->middle = terminal;
                     node = node->middle;
             } else if (node->value < name[i]) {
                 if (!node->right) {
                     Node* newNode = new Node();
+                    totalSize += sizeof(newNode);
                     newNode->value = name[i];
                     newNode->isTerminal = false;
                     node->right = newNode;
                     Node* terminal = new Node();
+                    totalSize += sizeof(terminal);
                     newNode->middle = terminal;
                     node = newNode->middle;
                 } else {
@@ -65,10 +73,12 @@ class TSTrie
             } else if (node->value > name[i]) {
                 if (!node->left) {
                     Node* newNode = new Node();
+                    totalSize += sizeof(newNode);
                     newNode->value = name[i];
                     newNode->isTerminal = false;
                     node->left = newNode;
                     Node* terminal = new Node();
+                    totalSize += sizeof(terminal);
                     newNode->middle = terminal;
                     node = newNode->middle;
                 } else {
@@ -82,6 +92,7 @@ class TSTrie
            
         } 
          node->paths_pos.push_back(position);
+         totalSize += sizeof(position);
         
     }
 
@@ -180,7 +191,28 @@ public:
     void find(string name, bool partial = false) {
         if (partial) findPartially(name, root);
         else find(name, root);
-    } 
+    }
+
+    void findFiles(string filename, bool partial = false){
+        ifstream infile(filename);
+        string query;
+        while(infile >> query) {
+            find(query, partial);
+        }
+        infile.close();
+    }
+
+    void startMeasures() {
+        tStart = clock();
+        totalSize = sizeof(Node);
+    }
+
+    pair<double, long> endMeasures() {
+        tEnd = clock();
+        timeTaken = double(tEnd - tStart)/CLOCKS_PER_SEC; 
+        cout << "Time taken: " << timeTaken << " s , Total size: " << totalSize << " B" << endl;
+        return {timeTaken, totalSize};
+    }
 
     void show() {
         root->show(0);
