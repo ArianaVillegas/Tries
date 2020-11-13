@@ -96,11 +96,11 @@ class TSTrie
         
     }
 
-	void find(string name, Node* node){
+	void find(string name, Node* node, ofstream & fileout){
 		int size = (int) name.size();
 		for(int i = 0; i < size; i++) {
             if (!node) {
-                cout << "File not  found\n";
+                fileout << "File not  found\n";
                 return;
             }
             if (node->value == name[i]) {
@@ -115,7 +115,7 @@ class TSTrie
             }
 		}
         vector<string> paths;
-        if (!node->isTerminal) cout << "File not found\n";
+        if (!node->isTerminal) fileout << "File not found\n";
 		else {
             fstream infile("data.db");
             int idx = 0;
@@ -124,14 +124,14 @@ class TSTrie
                 infile.seekg(path);
                 infile.read((char*)&r, sizeof(Record));
                 paths.push_back(r.name);
-                cout << idx << ") " << r.name << '\n';   
+                fileout << idx << ") " << r.name << '\n';   
                 idx++;
             }
-            findEqual(paths);            
+            findEqual(paths, fileout);            
         }
 	}
 
-    void findEqual(vector<string> paths){
+    void findEqual(vector<string> paths, ofstream & fileout){
 		bool f;
 		int size = paths.size();
 		map<int,vector<int>> files;
@@ -150,13 +150,13 @@ class TSTrie
 			if(pp.second.size() == 1) 
 				continue;
 			for(int idx:pp.second){
-				cout << idx << ", ";
+				fileout << idx << ", ";
 			}
-			cout << " are EQUAL.\n";
+			fileout << " are EQUAL.\n";
 		}
 	}
 
-    void findPartially(string name, Node* node){
+    void findPartially(string name, Node* node, ofstream & fileout){
 		int size = (int) name.size();
 		for(int i = 0; i < size; i++) {
             if (node->value == name[i]) {
@@ -171,11 +171,12 @@ class TSTrie
             }
 		}
         vector<string> paths;
-        dfs(node, paths);
-        findEqual(paths);
+        
+        dfs(node, paths, fileout);
+        findEqual(paths, fileout);
 	}
 
-    void dfs(Node* node, vector<string> &paths) {
+    void dfs(Node* node, vector<string> &paths, ofstream& fileout) {
         if (node->isTerminal) {
             fstream infile("data.db");
             int idx = 0;
@@ -184,13 +185,13 @@ class TSTrie
                 infile.seekg(path);
                 infile.read((char*)&r, sizeof(Record));
                 paths.push_back(r.name);
-                cout << idx << ") " << r.name << '\n';   
+                fileout << idx << ") " << r.name << '\n';   
                 idx++;
             }
         } 
-        if (node->left) dfs(node->left, paths);
-        if (node->middle) dfs(node->middle, paths);
-        if (node->right) dfs(node->right, paths);  
+        if (node->left) dfs(node->left, paths, fileout);
+        if (node->middle) dfs(node->middle, paths, fileout);
+        if (node->right) dfs(node->right, paths, fileout);  
         
     }
 
@@ -219,11 +220,13 @@ public:
 	};
 
     void find(string name, bool partial = false) {
-        if (partial) findPartially(name, root);
-        else find(name, root);
+        ofstream fileout("tstrie_result.txt", ios::app);
+        if (partial) findPartially(name, root, fileout);
+        else find(name, root, fileout);
     }
 
     void findFiles(string filename, bool partial = false){
+        system("rm tstrie_result.txt");
         ifstream infile(filename);
         string query;
         while(getline(infile, query)) {

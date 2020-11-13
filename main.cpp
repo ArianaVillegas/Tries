@@ -30,7 +30,7 @@ void tester() {
 	
 	std::cout << "\nTERNARY" << std::endl;
 	tsTrie.startMeasures();
-	tsTrie.findFiles("test.txt");
+	tsTrie.findFiles("test.txt", true);
 	tsTrie.endMeasures();
 	
 	std::cout << "\nRADIX" << std::endl;
