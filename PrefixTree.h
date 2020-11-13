@@ -13,9 +13,21 @@ private:
 		char value;
 		map<char,Node*> children;
 		vector<int> word_pos;
+
+		long memsize() {
+        	return sizeof(char) +
+                sizeof(std::vector<int>) + (sizeof(int) * word_pos.size()) +
+                sizeof(std::map<char, Node*>) + children.size() * 
+                (sizeof(char) + sizeof(Node*));
+    	}
 	};	
 
 	Node* init;
+
+	// Exection time and disk access
+    clock_t tStart, tEnd;
+    double timeTaken;
+    long totalSize;
 
 	void insert(string name, int pos, Node* init){
 		int size = name.size();
@@ -102,6 +114,19 @@ private:
             dfs(child, idx, paths);
     }
 
+    void dfs_size(Node* cur) {
+        if(!cur) return;
+        totalSize += cur->memsize();
+        for(auto [ c, child ] : cur->children)
+            dfs_size(child);
+    }
+
+    long memsize() {
+        totalSize = 0;
+        dfs_size(init);
+        return totalSize + sizeof(long) + sizeof(init) + init->memsize();
+    }
+
     void print_cur(Node* cur, long &idx, vector<string> &paths) {
         std::ifstream file("data.db", std::ios::binary);
         for(auto dir : cur->word_pos) {
@@ -128,7 +153,7 @@ public:
 
 	void find(string name, bool partial = false){
 		find(name, init, partial);
-	}
+	};
 
 	void addFiles(){
 		ifstream infile("data.db");
@@ -144,5 +169,26 @@ public:
 			pos = infile.tellg();
 		}
 	};
-	
+
+	void startMeasures() {
+        tStart = clock();
+        totalSize = 0;
+    };
+
+    pair<double, long> endMeasures() {
+        tEnd = clock();
+        timeTaken = double(tEnd - tStart)/CLOCKS_PER_SEC; 
+        totalSize = memsize();
+        cout << "Time taken: " << timeTaken << " s , Total size: " << totalSize << " B" << endl;
+        return {timeTaken, totalSize};
+    };
+
+    void findFiles(string filename, bool partial = false){
+        ifstream infile(filename);
+        string query;
+        while(infile >> query) {
+            find(query, partial);
+        }
+        infile.close();
+    };
 };
