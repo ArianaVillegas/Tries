@@ -158,9 +158,9 @@ class RadixTree {
     }
 
     void findFiles(std::string filename, bool partial = false){
-        std::ifstream infile(filename);
-        std::string query;
-        while(infile >> query) {
+        ifstream infile(filename);
+        string query;
+        while(getline(infile, query)) {
             find(query, partial);
         }
         infile.close();
