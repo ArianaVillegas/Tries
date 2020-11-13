@@ -114,6 +114,7 @@ class TSTrie
                 i--;
             }
 		}
+        vector<string> paths;
         if (!node->isTerminal) cout << "File not found\n";
 		else {
             fstream infile("data.db");
@@ -122,11 +123,37 @@ class TSTrie
                 Record r;
                 infile.seekg(path);
                 infile.read((char*)&r, sizeof(Record));
+                paths.push_back(r.name);
                 cout << idx << ") " << r.name << '\n';   
                 idx++;
             }
-            
+            findEqual(paths);            
         }
+	}
+
+    void findEqual(vector<string> paths){
+		bool f;
+		int size = paths.size();
+		map<int,vector<int>> files;
+		for(int i=0; i<size; i++){
+			f = 0;
+			for(auto pp:files){
+				if(cmpFiles(paths[i], paths[pp.first])){
+					files[pp.first].push_back(i);
+					f = 1;
+					break;
+				}
+			}
+			if(!f) files[i].push_back(i);
+		}
+		for(auto pp:files){
+			if(pp.second.size() == 1) 
+				continue;
+			for(int idx:pp.second){
+				cout << idx << ", ";
+			}
+			cout << " are EQUAL.\n";
+		}
 	}
 
     void findPartially(string name, Node* node){
@@ -143,10 +170,12 @@ class TSTrie
                 i--;
             }
 		}
-        bfs(node);
+        vector<string> paths;
+        dfs(node, paths);
+        findEqual(paths);
 	}
 
-    void bfs(Node* node) {
+    void dfs(Node* node, vector<string> &paths) {
         if (node->isTerminal) {
             fstream infile("data.db");
             int idx = 0;
@@ -154,13 +183,14 @@ class TSTrie
                 Record r;
                 infile.seekg(path);
                 infile.read((char*)&r, sizeof(Record));
+                paths.push_back(r.name);
                 cout << idx << ") " << r.name << '\n';   
                 idx++;
             }
         } 
-        if (node->left) bfs(node->left);
-        if (node->middle) bfs(node->middle);
-        if (node->right) bfs(node->right);  
+        if (node->left) dfs(node->left);
+        if (node->middle) dfs(node->middle);
+        if (node->right) dfs(node->right);  
         
     }
 
