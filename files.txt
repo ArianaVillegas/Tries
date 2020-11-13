@@ -1,0 +1,302 @@
+/home/suro/Documents/Laptop/TA/TA-ARCH/Proyecto/Implementation/Proyecto_Arquitectura.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Proyecto/ProyectoMIPS.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab07 - Assembly/Lab06.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab02 - Verilog Comb/Homework/ArchL02.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab02 - Verilog Comb/Homework/ArchL02-S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab02 - Verilog Comb/ARCH_HDL_L02.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab06 - Testbench/Lab05.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab03 - Verilog Seq/Homework/ArchL03-S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab03 - Verilog Seq/ARCH_HDL_L03.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab09 - High Level Simulation/Lab08.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab01 - Circuit/Homework/ArchL01-S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab01 - Circuit/ARCH_CircuitSimulation_L01.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab04 - FSM/Homework/ArchL04.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab04 - FSM/Homework/ArchL04-S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab04 - FSM/ARCH_HDL_L04.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab04 - FSM/ARCH_HDL_L05.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab08 - Cache Simulation/ARCH_L07.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab05 - ALU/Homework/L04.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab05 - ALU/Homework/ArchL04-S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Labs/Lab05 - ALU/images/fig1.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab02/ArchL02.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab02/ArchL02-S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Listas/Lista02/ArchT02.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Listas/Lista02/ArchT02 - S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Listas/Lista04/Lista03.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Listas/Lista04/ArchT03.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Listas/Lista03/ArchT03.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Listas/Lista_PC_04/ArchT03.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Listas/Lista01/ArchT01-S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab05/Lab05.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab06/Lab06.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Slides/ARCH_04.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Slides/ARCH_08.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Slides/ARCH_06.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Slides/ARCH_05.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Slides/ARCH_01.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Slides/ARCH_02.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Slides/ARCH_03.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Slides/ARCH_07.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Teo02/ArchT02.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Exams/Exam1/Exam1.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Exams/Exam2/Exam2.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Exams/PC/PC.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Project/Implementation/Proyecto_Arquitectura.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Project/ProyectoMIPS.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab07/ARCH_L07.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab04/L04.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab04/images/fig1.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab04/ArchL04-S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab03/ArchL03.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab03/ArchL03-S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Lab01/ArchL01-S.pdf
+/home/suro/Documents/Laptop/TA/TA-ARCH/Teo01/ArchT01-S.pdf
+/home/suro/Documents/Laptop/TA/arch-20202/Sarah Harris, David Harris - Digital Design and Computer Architecture, ARM Edition (2015, Morgan Kaufmann).pdf
+/home/suro/Documents/Laptop/TA/arch-20202/harris_solutions_all.pdf
+/home/suro/Documents/Laptop/TA/arch-20202/Lab01 (1).pdf
+/home/suro/Documents/Laptop/TA/ARCH-MENTORIAS/S07/ArchT02.pdf
+/home/suro/Documents/Laptop/TA/ARCH-MENTORIAS/S07/ArchL04.pdf
+/home/suro/Documents/Laptop/TA/ARCH-MENTORIAS/S07/ARCH_HDL_L05.pdf
+/home/suro/Documents/Laptop/TA/Books/Blaine Readler - Verilog by Example_ A Concise Introduction for FPGA Design-Full Arc Press (2011).pdf
+/home/suro/Documents/Laptop/TA/Books/Yamin Li - Computer Principles and Design in Verilog HDL-Wiley (2015).pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/CS2201_ARCH_L1.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/CS2201_ARCH_E1.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/Soluciones/sol5p.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/Soluciones/sol8p.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/Soluciones/sol3p.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/Soluciones/sol4p.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/Soluciones/sol1.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/Soluciones/sol2p.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/Soluciones/sol6p.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/Soluciones/sol11p.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/Soluciones/sol7p.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/David A. Patterson, John L. Hennessy - Computer Organization and Design Solutions Ch. 1-5 (2013).pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/solutions.pdf
+/home/suro/Documents/Laptop/TA/Books/Problemas/harris_solutions_odd.pdf
+/home/suro/Documents/Laptop/TA/Books/harris_solutions_all.pdf
+/home/suro/Documents/Laptop/TA/Books/ArquitecturadeComputadores-JohnL.Hennessy-DavidA.Patterson-UnEnfoqueCuantitativo-Capturado.pdf
+/home/suro/Documents/Laptop/TA/Books/Harris D.M., Harris S.L. - Digital Design and Computer Architecture. Exercise Solutions.pdf
+/home/suro/Documents/Laptop/TA/Books/David Harris, Sarah Harris - Digital Design and Computer Architecture, Second Edition-Morgan Kaufmann (2012).pdf
+/home/suro/Documents/Laptop/TA/Books/solution manual for Computer Organization and Design, 4th Ed, D. A. Patterson and J. L. Hennessy ... ( PDFDrive.com ).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/uccelli_meneses_francesco_3120_question_113267_255174_lab5arqui/lab5arqui/lab5.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/rosado_janampa_jordan_erickson_2916_question_113267_255178_Lab05Grupo 3/Lab05/Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/rosado_janampa_jordan_erickson_2916_question_113267_255178_Lab05Grupo 3/Lab05/Informe LAB05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/rosado_janampa_jordan_erickson_2916_question_113267_255178_Lab05Grupo 3/Lab05/._Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/guerrero_jimnez_alvaro_jess_5469_question_113267_255194_Lab05_turnin/Lab05_turnin/Lab05_informe.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/rodrguez_moscoso_mauricio_antonio_3596_question_113267_255186_LAB5/LAB5/lab5.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/rojas_zelaya_reynaldo_oscar_2438_question_113267_255035_lab5/Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/rojas_zelaya_reynaldo_oscar_2438_question_113267_255035_lab5/._Lab_5_Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/rojas_zelaya_reynaldo_oscar_2438_question_113267_255035_lab5/Lab_5_Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/rojas_zelaya_reynaldo_oscar_2438_question_113267_255035_lab5/._Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/medina_medina_eduardo_enrique_5379_question_113267_255187_lab5/lab5/Lab5.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/medina_medina_eduardo_enrique_5379_question_113267_255187_lab5/lab5/._Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/quispe_barriga_sebastian_andres_3096_question_113267_255185_[ARCH] Laboratorio 05 (Grupo 11)/_ARCH__Laboratorio_05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/de_la_cruz_quispe_remy_2546_question_113267_255060_lab5/Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/de_la_cruz_quispe_remy_2546_question_113267_255060_lab5/._Lab_5_Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/de_la_cruz_quispe_remy_2546_question_113267_255060_lab5/Lab_5_Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/de_la_cruz_quispe_remy_2546_question_113267_255060_lab5/._Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/jauregui_vera_luis_aaron_eduardo_6297_question_113267_255188_Lab5/Lab_5___ARCH.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/noche_arens_claudia_1957_question_113267_255193_lab05_1_Grupo5/lab01_1/ALU/Informe_lab_05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/boza_martin_adrin_anthoni_1885_question_113267_255140_lab5/Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/boza_martin_adrin_anthoni_1885_question_113267_255140_lab5/._Lab_5_Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/boza_martin_adrin_anthoni_1885_question_113267_255140_lab5/Lab_5_Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/boza_martin_adrin_anthoni_1885_question_113267_255140_lab5/._Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/tenazoa_ramrez_renzo_martin_3118_question_113267_255184_[ARCH] Laboratorio 05 (Grupo 11)/_ARCH__Laboratorio_05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/lostaunau_nuez_andrs_augusto_enrique_2899_question_113267_255176_Lab05/Lab05/Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/lostaunau_nuez_andrs_augusto_enrique_2899_question_113267_255176_Lab05/Lab05/Informe LAB05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab05/lostaunau_nuez_andrs_augusto_enrique_2899_question_113267_255176_Lab05/Lab05/._Lab05.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/flores_rimac_christopher_william_2629_question_112134_251724_Lab4 Parte 1 Grupo 10 Christopher Flores Rimac.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/prieto_abasolo_jonathan_1790_question_112134_251729_lab4.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/rojas_zelaya_reynaldo_oscar_2438_question_112134_251732_Untitled document.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/aguirre_bernal_alvaro_gonzalo_5451_question_112134_251734_GRUPO 6 LAB 4.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/castro_armas_mauricio_5457_question_112134_251736_lab 4_grupo 8.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/tenazoa_ramrez_renzo_martin_3118_question_112134_251742__ARCH__Laboratorio_04__Parte_1_ (1).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/uccelli_meneses_francesco_3120_question_112134_251722_lab4.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/berrocal_alvarado_willian_5373_question_112134_251714_lab 4_grupo 8.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/jauregui_vera_luis_aaron_eduardo_6297_question_112134_251735_Grupo 2 - Diagrama ALU.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/rojas_rojas_christian_kevin2437_question_112134_251717_lab4.1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/boza_martin_adrin_anthoni_1885_question_112134_251726_Grupo 9.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/rosado_janampa_jordan_erickson_2916_question_112134_251725_ALUWU-Grupo3 (1).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/snchez_albarracn_guillermo_fernando_2762_question_112134_251739_Lab4-Parte1-Grupo7.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/noche_arens_claudia_1957_question_112134_251712_Grupo_5.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/lostaunau_nuez_andrs_augusto_enrique_2899_question_112134_251730_Documento sin título.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/heredia_lapa_cristhoper_michel_5470_question_112134_251733_la_1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/bernuy_geiser_mauricio_bernardo_3011_question_112134_251716_Grupo_5.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/imparato_conetta_massimo_nicola_2015_question_112134_251737_Lab4.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/quispe_barriga_sebastian_andres_3096_question_112134_251743__ARCH__Laboratorio_04__Parte_1_ (1).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/rodrguez_moscoso_mauricio_antonio_3596_question_112134_251727_Parte 1 ALU GRUPO 10(Mauricio Rodriguez).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab04/medina_medina_eduardo_enrique_5379_question_112134_251731_lab4.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab04/rojas_rojas_christian_kevin2437_question_112853_254922_lab4.2-arch.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab03/uccelli_meneses_francesco_3120_question_111797_250969_lista3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab03/aguirre_bernal_alvaro_gonzalo_5451_question_111797_251387_TAREA 3 PARTE 2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab03/rosado_janampa_jordan_erickson_2916_question_111797_251499_Presentación lab 3 arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/guerrero_jimnez_alvaro_jess_5469_question_108422_241885_AlvaroGuerreroJiménez_CompArch-LAB_01.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/tenazoa_ramrez_renzo_martin_3118_question_108422_241871_[ARCH] Laboratorio 01.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/bernuy_geiser_mauricio_bernardo_3011_question_108422_242076_CS2201_ARCH_L1 - Mauricio Bernuy.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/lostaunau_nuez_andrs_augusto_enrique_2899_question_108422_241208_Laboratorio 1 - Documentos de Google.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/aguirre_bernal_alvaro_gonzalo_5451_question_108422_242067_arqui_ejercicios.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/castro_armas_mauricio_5457_question_108422_241883_Mauricio Castro 201820082/Tarea_1_Arch.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/rojas_zelaya_reynaldo_oscar_2438_question_108422_242078_LAB1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/quispe_barriga_sebastian_andres_3096_question_108422_241886_Laboratorio 1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/rosado_janampa_jordan_erickson_2916_question_108422_241898_Arquitectura de computadoras.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/snchez_albarracn_guillermo_fernando_2762_question_108422_241880_Arqui_L1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/rodrguez_moscoso_mauricio_antonio_3596_question_108422_242075_Lab 01 Arquitectura de computadoras-convertido.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/jauregui_vera_luis_aaron_eduardo_6297_question_108422_241815_Lab_1___ARCH (3).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/medina_medina_eduardo_enrique_5379_question_108422_241035_Lab 1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/heredia_lapa_cristhoper_michel_5470_question_108422_241854_arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/noche_arens_claudia_1957_question_108422_242069_Noche_Claudia_Lab1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/osterling_dankers_kurt_rafael_2910_question_108422_242064_Arquitectura_de_Computadoras.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/prieto_abasolo_jonathan_1790_question_108422_241256_LAB 1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/rojas_rojas_christian_kevin2437_question_108422_241858_ejercicios1 - arquitectura.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/mundaca_olivera_javier_alejandro_2765_question_108422_242072_lab1-2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/uccelli_meneses_francesco_3120_question_108422_241838_Uccelli_F_ARCH_L1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Lab01/salas_palacios_eduardo_miguel_5556_question_108422_241894_Informe.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/rodrguez_moscoso_mauricio_antonio_3596_question_108423_243854_ejercicios arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/medina_medina_eduardo_enrique_5379_question_108423_243838_Primera_Lista_de_Ejercicios__Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/prieto_abasolo_jonathan_1790_question_108423_243848_EJERCICIOS-1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/castro_armas_mauricio_5457_question_108423_243831_20190908_211212-convertido.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/heredia_lapa_cristhoper_michel_5470_question_108423_243837_tarea_domingo.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/berrocal_alvarado_willian_5373_question_108423_243847_Lista de ejercicios 01 _ Berrocal Alvarado.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/rosado_janampa_jordan_erickson_2916_question_108423_243851_Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/guerrero_jimnez_alvaro_jess_5469_question_108423_243832_AlvaroGuerreroJiménez-CompArch-Lista_de_Ejercicios_01.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/aguirre_bernal_alvaro_gonzalo_5451_question_108423_243823_EJERCICIOS_1 (1).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/lostaunau_nuez_andrs_augusto_enrique_2899_question_108423_243797_Lista de ejercicios 01.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/bernuy_geiser_mauricio_bernardo_3011_question_108423_243862_CS2201.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/quispe_barriga_sebastian_andres_3096_question_108423_243858_LE01.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/tenazoa_ramrez_renzo_martin_3118_question_108423_243864_[ARCH] Ejercicios 01.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/osterling_dankers_kurt_rafael_2910_question_108423_243852_Arquitectura_de_Computadoras__Copy_ (1).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/salas_palacios_eduardo_miguel_5556_question_108423_243825_CWU_Math335_Portfolio_Template.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Teo01/uccelli_meneses_francesco_3120_question_108423_243824_lista_1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/castro_armas_mauricio_5457_question_114389_262192_Lab 2 Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/salas_palacios_eduardo_miguel_5556_question_114389_262227_Preguntas_arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/quispe_barriga_sebastian_andres_3096_question_114389_262232_T02.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._tenazoa_ramrez_renzo_martin_3118_question_114389_262233_[ARCH] Ejercicios 02 (Revisar este).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/noche_arens_claudia_1957_question_114389_262220_CLAUDIA_NOCHE_201710320.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._guerrero_jimnez_alvaro_jess_5469_question_114389_262196_Alvaro_Guerrero_201820093.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/prieto_abasolo_jonathan_1790_question_114389_262190_Lab 2 Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/Late/Lista 02 Aguirre.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/Late/L02, MAURICIO BERNUY.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/Late/._Lista 02 Aguirre.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/Late/._L02, MAURICIO BERNUY.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/rojas_zelaya_reynaldo_oscar_2438_question_114389_262205_ejercicios2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._uccelli_meneses_francesco_3120_question_114389_262211_listaa2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/tenazoa_ramrez_renzo_martin_3118_question_114389_262233_[ARCH] Ejercicios 02 (Revisar este).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._snchez_albarracn_guillermo_fernando_2762_question_114389_262216_ArquiListaDeEjercicios2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._lostaunau_nuez_andrs_augusto_enrique_2899_question_114389_262207_ANDRES_LOSTAUNAU_201810044.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._salas_palacios_eduardo_miguel_5556_question_114389_262227_Preguntas_arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/uccelli_meneses_francesco_3120_question_114389_262211_listaa2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._medina_medina_eduardo_enrique_5379_question_114389_262159_lista2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._noche_arens_claudia_1957_question_114389_262220_CLAUDIA_NOCHE_201710320.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._castro_armas_mauricio_5457_question_114389_262192_Lab 2 Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._prieto_abasolo_jonathan_1790_question_114389_262190_Lab 2 Arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/lostaunau_nuez_andrs_augusto_enrique_2899_question_114389_262207_ANDRES_LOSTAUNAU_201810044.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/rodrguez_moscoso_mauricio_antonio_3596_question_114389_262236_T02.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/snchez_albarracn_guillermo_fernando_2762_question_114389_262216_ArquiListaDeEjercicios2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/medina_medina_eduardo_enrique_5379_question_114389_262159_lista2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/guerrero_jimnez_alvaro_jess_5469_question_114389_262196_Alvaro_Guerrero_201820093.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._rodrguez_moscoso_mauricio_antonio_3596_question_114389_262236_T02.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._quispe_barriga_sebastian_andres_3096_question_114389_262232_T02.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 02/._rojas_zelaya_reynaldo_oscar_2438_question_114389_262205_ejercicios2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/rojas_zelaya_reynaldo_oscar_2438_question_110923_248105_Lab03 - ARCH - 2019-II.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/snchez_albarracn_guillermo_fernando_2762_question_110923_248096_ARCH-LAB3-P1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/salas_palacios_eduardo_miguel_5556_question_110923_248110_Documento sin título.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/rojas_rojas_christian_kevin2437_question_110923_248118_fsm-arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/tenazoa_ramrez_renzo_martin_3118_question_110923_248134__ARCH__Laboratorio_03__Parte_1_.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/berrocal_alvarado_willian_5373_question_110923_248108_Lab03 Berrocal Alvarado.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/flores_rimac_christopher_william_2629_question_110923_248116_lab03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/boza_martin_adrin_anthoni_1885_question_110923_248131_Doc1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/castro_armas_mauricio_5457_question_110923_248121_Parte 1 arch.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/jauregui_vera_luis_aaron_eduardo_6297_question_110923_248127_Lab3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/bernuy_geiser_mauricio_bernardo_3011_question_110923_248109_presentacion1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/uccelli_meneses_francesco_3120_question_110923_248113_Arquilab3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/rosado_janampa_jordan_erickson_2916_question_110923_248107_Arquitectura de computadoraJordanErick.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/aguirre_bernal_alvaro_gonzalo_5451_question_110923_248135_Documento sin título.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/imparato_conetta_massimo_nicola_2015_question_110923_248095_ThunderbirdParte1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/medina_medina_eduardo_enrique_5379_question_110923_248128_TRABAJO DE LAB.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/quispe_barriga_sebastian_andres_3096_question_110923_248133_Arquitectura_de_Computadoras___Lab_03___Part_1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/lostaunau_nuez_andrs_augusto_enrique_2899_question_110923_248098_Lab03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/rodrguez_moscoso_mauricio_antonio_3596_question_110923_248111_Lab3 parte 1(Mauricio R).pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/prieto_abasolo_jonathan_1790_question_110923_248132_LAB3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/F-Lab03/heredia_lapa_cristhoper_michel_5470_question_110923_248115_Lab03_parte1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 01/Lista01 Noche.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2019-II/Arch Lista 01/._Lista01 Noche.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/ostolazacantuariasvíctorfernando_5786_444717_Ostolaza_Victor_L03/Ostolaza_Victor_L03/Ostolaza_Victor_L03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/sotoaguirredavid_2975_442783_ArchL03/ArchL03/Tarea_ArchL03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/sotoaguirredavid_2975_442783_ArchL03/__MACOSX/ArchL03/._Tarea_ArchL03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/sánchezalbarracínguillermofernando_LATE_2762_456624_Lab3_SanchezGuillermo/Lab3_SanchezGuillermo/Lab3_SanchezGuillermo.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/knellnoriegasebastianalonso_LATE_5545_456618_Knell_Sebastian_L03/Lab03/._Lab03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/knellnoriegasebastianalonso_LATE_5545_456618_Knell_Sebastian_L03/Lab03/Lab03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/francoamayofabriziodavid_2296_444727_Franco,Fabrizio-Laboratorio3-2/Laboratorio3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/Roizman_Maor_L03/INFORME.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/Roizman_Maor_L03/._INFORME.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/peñaandiavictorangelo_3089_441681_Lab03_Peña_Victor/lab03/informe.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/noelrabinesmateo_3552_444454_Noel_Mateo_L03/Noel_Mateo_L03/._Lab03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/noelrabinesmateo_3552_444454_Noel_Mateo_L03/Noel_Mateo_L03/Lab03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/quispebarrigasebastianandres_3096_444741_L03_squispebarriga/L03/L03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/castroquispeeduardosebastián_LATE_5846_456745_Castro_Eduardo_L03-1/Report03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/oyaguesantolallamacarenamilagros_LATE_2338_456743_Oyague_Macarena_L03-1/Oyague_Macarena_L03/lab3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/oyaguesantolallamacarenamilagros_LATE_2338_456743_Oyague_Macarena_L03-1/Oyague_Macarena_L03/._lab3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/Salazar_Christian_L03/Salazar_Christian_L03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/guimareysaavedraanthony_3050_443724_Guimarey_Anthony_L02/Guimarey_Anthony_L02/Informe_Lab02.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/barriossilvaalonsowinston_3364_444688_Barrios_Alonso_L03/Barrios_Alonso_L03/Lab03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/reáteguisuárescarlosgabriel_3590_444732_Reategui_Carlos_L03/Reategui_Carlos_L03canvas/._lab.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/reáteguisuárescarlosgabriel_3590_444732_Reategui_Carlos_L03/Reategui_Carlos_L03canvas/lab.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/Rodriguez_Mauricio_LAB03/LAB03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/tantavillanuevajohanhugo_LATE_3629_456768_Tanta_Johan_L03_201810605/Laboratorio_03/Laboratorio_03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/mamaniarisacaivanemilius_5546_444696_Mamani_Ivan_L03-2/Mamani_Ivan_L03/Mamani_Ivan_lab3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/miravalobregónjeanpaulalexander_3536_444674_Miraval_Jean_L01-3/Lab3/Miraval_Lab03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/cordovaamayaefrainantonio_5863_444633_Córdova_Efraín_L03/Córdova_Efraín_L03/LABORATORIO 3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/lozadavelascojuanpablomiguel_5941_444689_JuanPablo_Lozada_L03-1/JuanPablo_Lozada_L03/JuanPablo_Lozada_L03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/berrocalalvaradowillian_5373_443307_Berrocal_Willian_L03/Berrocal_Willian_L03/Berrocal_Willian_L03 - Informe.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G2_L03/tenazoaramírezrenzomartin_3118_444692_Tenazoa_Renzo_L03/ARCH_Laboratorio__03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/rebosiocumpajorgeluis_5381_447362_Lab3JorgeRebosio/Lab3JorgeRebosio/Lab3/Lab3_Rebosio_Cumpa_Jorge.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/rebosiocumpajorgeluis_5381_447362_Lab3JorgeRebosio/Lab3JorgeRebosio/Lab2/Lab2_Rebosio_Cumpa_Jorge.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/rebosiocumpajorgeluis_5381_447362_Lab3JorgeRebosio/Lab3JorgeRebosio/Lab2/CS2201_ARCH_L2.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/laparomerojulisa_LATE_5931_456775_Lapa_Julisa_L03/Lapa_Julisa_L03/Informe L03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/paredesreydecastrodiegoandrey_3868_447352_Paredes_Diego_L03/lab_03/Lab_03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/cautiseguradanielalucía_5849_447345_lab3/ArchL3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/cautiseguradanielalucía_5849_447345_lab3/__MACOSX/._ArchL3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/shulcaromeroalexandramichelle_6031_447331_LAB03/Informe_Laboratorio3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/yupanquilópezmilagrosvaleria_6274_447347_ARCH_L3_201910511/ARCH_L3_201910511/ARCH_Lab03_201910511.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/zuloagalooangellomiguel_LATE_6072_456484_Zuloaga_Angello_L03/Lab3 arqui.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/sánchezatahualpajosémiguel_3877_447199_Sanchez_Jose_L03/LABORATORIO 03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/heredialapacristhopermichel_5470_444318_lab3/ejercicio3/laboratorio3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/heredialapacristhopermichel_5470_444318_lab3/ArchL03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/calixtorojasneftalianderson_5828_447323_Neftali_calixto_L03/Neftali_calixto_L03/._informe.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/calixtorojasneftalianderson_5828_447323_Neftali_calixto_L03/Neftali_calixto_L03/informe.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ventobustamantedanielaabril_6058_447353_lab03Ventov2/lab03Vento.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/moreytutivenpaoloandré_5967_446781_Morey_Paolo_L03/Morey_Paolo_L03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/imparatoconettamassimonicola_2015_446749_Lab03/Informe Lab 03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/hubytuestajeanpaul_5925_447244_Huby_Jean_Paul_L03/lab_3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/barruetaaspajofringsdouglas_6096_447296_Barrueta_Frings_L03/INFORME-L03 - ARCH.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/lamacarrascomiguelangel_5930_446780_Lama_Miguel_L03/Arch L03/Arch trabajo 3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/diaztramontanamayra_LATE_5880_450196_Díaz_Mayra_L03/Díaz_Mayra_L03/Diaz_Mayra_L03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/._CS2201_ARCH_L3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/LAB3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/Verilog/FIFO4/FIFO4_vis.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/Verilog/FIFO4/._FIFO4_vis.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/Verilog/JKFF_Behavioral/._JKFF_Behavioral_vis.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/Verilog/JKFF_Behavioral/JKFF_Behavioral_vis.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/Verilog/JKLatch_Behavioral/JKLatch_Behavioral_vis.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/Verilog/JKLatch_Behavioral/._JKLatch_Behavioral_vis.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/Verilog/SchematicMisterioso/SchematicMisterioso_vis.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/Verilog/SchematicMisterioso/._SchematicMisterioso_vis.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/Verilog/TFF_Behavioral/TFF_Behavioral_vis.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/Verilog/TFF_Behavioral/._TFF_Behavioral_vis.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ledgardferrerochristian_2021_447233_Ledgard_Christian_L03/LAB3/CS2201_ARCH_L3.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/riverossotoandresjaffet_2669_446812_Riveros_Andres_ARCH/__MACOSX/lab3/exercise1/JKFF_Behavioral/._JKFF_B.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/riverossotoandresjaffet_2669_446812_Riveros_Andres_ARCH/__MACOSX/lab3/exercise1/JKFF_Structural/._JKFF_Structural.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/riverossotoandresjaffet_2669_446812_Riveros_Andres_ARCH/__MACOSX/lab3/exercise1/TFF_Behavioral/._TFF_behavioral.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/riverossotoandresjaffet_2669_446812_Riveros_Andres_ARCH/__MACOSX/lab3/exercise1/TFF_Structural/._TFF_Structural.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/riverossotoandresjaffet_2669_446812_Riveros_Andres_ARCH/__MACOSX/lab3/exercise2/._Schematic.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/riverossotoandresjaffet_2669_446812_Riveros_Andres_ARCH/lab3/exercise1/JKFF_Behavioral/JKFF_B.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/riverossotoandresjaffet_2669_446812_Riveros_Andres_ARCH/lab3/exercise1/JKFF_Structural/JKFF_Structural.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/riverossotoandresjaffet_2669_446812_Riveros_Andres_ARCH/lab3/exercise1/TFF_Behavioral/TFF_behavioral.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/riverossotoandresjaffet_2669_446812_Riveros_Andres_ARCH/lab3/exercise1/TFF_Structural/TFF_Structural.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/riverossotoandresjaffet_2669_446812_Riveros_Andres_ARCH/lab3/exercise2/Schematic.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/villacortagarciaestebannicolás_6063_447363_LAB3 - Esteban Villacorta/LAB3 - Villacorta, Esteban - 201910336.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/ramírezgutiérrezjoaquínelías_6005_445948_Ramirez_Joaquin_L03/ARCH_Lab_03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/floresrimacchristopherwilliam_2629_447356_lab3/LAB3/._ArchL03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/floresrimacchristopherwilliam_2629_447356_lab3/LAB3/LAB_3_1.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/floresrimacchristopherwilliam_2629_447356_lab3/LAB3/ArchL03.pdf
+/home/suro/Documents/Laptop/TA/LABS_ALUMNOS/2020-I/Arch_G1_L03/floresrimacchristopherwilliam_2629_447356_lab3/LAB3/._LAB_3_1.pdf
