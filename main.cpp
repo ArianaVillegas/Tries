@@ -30,7 +30,7 @@ void tester() {
 	
 	std::cout << "\nTERNARY" << std::endl;
 	tsTrie.startMeasures();
-	tsTrie.findFiles("query.txt");
+	tsTrie.findFiles("test.txt");
 	tsTrie.endMeasures();
 	
 	std::cout << "\nRADIX" << std::endl;
@@ -40,7 +40,7 @@ void tester() {
 
 	std::cout << "\nTERNARY" << std::endl;
 	tsTrie.startMeasures();
-	tsTrie.findFiles("query_partially.txt", true);
+	tsTrie.findFiles("test_partially.txt", true);
 	tsTrie.endMeasures();
 	std::cout << "\nRADIX" << std::endl;
 

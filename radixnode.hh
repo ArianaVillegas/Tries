@@ -11,7 +11,7 @@ struct RadixNode {
     bool finalNode;
     std::vector<unsigned long> dirs;
     std::string content;
-    std::unordered_map<char, RadixNode*> children;
+    std::map<char, RadixNode*> children;
     RadixNode* parent;
 
     RadixNode() = default;
@@ -51,7 +51,7 @@ struct RadixNode {
         return sizeof(bool) +
                 sizeof(std::vector<unsigned long>) + (sizeof(unsigned long) * dirs.size()) +
                 sizeof(std::string) + (content.size()) +
-                sizeof(std::unordered_map<char, RadixNode*>) + children.size() * (sizeof(char) + sizeof(RadixNode*)) +
+                sizeof(std::map<char, RadixNode*>) + children.size() * (sizeof(char) + sizeof(RadixNode*)) +
                 sizeof(RadixNode*);
     }
 };
