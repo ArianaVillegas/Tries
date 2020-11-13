@@ -15,31 +15,31 @@ class RadixTree {
     std::string datafile;
     RadixNode* root = 0;
     
-    void find(std::string str, RadixNode* cur, int i = 0, bool partial = false) {
+    void find(std::string str, RadixNode* cur, std::ofstream& out, int i = 0, bool partial = false) {
         if(str == "") {
             if(partial) return dfs(cur);
             if(cur->content.size() == i && cur->finalNode) return print_cur(cur);
         }
         if(cur->content == "" && cur->children[str[0]])
-            return find(str, cur->children[str[0]], i, partial);
+            return find(str, cur->children[str[0]], out, i, partial);
         if(str[0] == cur->content[i])
-            return find(str.substr(1), cur, i + 1, partial);
+            return find(str.substr(1), cur, out, i + 1, partial);
         if(!cur->children[str[0]])
-            std::cout << "No existe el archivo" << std::endl;
+            out << "No existe el archivo" << std::endl;
         else
-            find(str, cur->children[str[0]], 0, partial);
+            find(str, cur->children[str[0]], out, 0, partial);
     }
 
     void print_cur(RadixNode* cur) {
         std::ifstream file(this->datafile, std::ios::binary);
-        int idx;
+        int idx{0};
         std::vector<std::string> paths;
         for(auto dir : cur->dirs) {
             file.seekg(dir);
             Record r{};
             file.read((char*)&r, sizeof(r));
             paths.push_back(r.name);
-            std::cout << ++idx << ") " << r.name << std::endl;
+            std::cout << idx++ << ") " << r.name << std::endl;
         }
         findEqual(paths);
     }
@@ -102,7 +102,8 @@ class RadixTree {
     }
 
     void find(std::string str, bool partial = false) {
-        find(str, root, 0, partial);
+        std::ofstream out("radixtree_result.txt", std::ios::app);
+        find(str, root, out, 0, partial);
     }
 
     void addFiles(){
@@ -158,6 +159,7 @@ class RadixTree {
     }
 
     void findFiles(std::string filename, bool partial = false){
+        system("rm radixtree_result.txt");
         ifstream infile(filename);
         string query;
         while(getline(infile, query)) {
