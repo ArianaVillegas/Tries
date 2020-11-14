@@ -171,15 +171,15 @@ class TSTrie
             }
 		}
         vector<string> paths;
-        
-        dfs(node, paths, fileout);
+        int idx = 0;
+        dfs(node, idx, paths, fileout);
         findEqual(paths, fileout);
 	}
 
-    void dfs(Node* node, vector<string> &paths, ofstream& fileout) {
+    void dfs(Node* node, int &idx, vector<string> &paths, ofstream& fileout) {
         if (node->isTerminal) {
             fstream infile("data.db");
-            int idx = 0;
+            
             for (auto path:node->paths_pos) {
                 Record r;
                 infile.seekg(path);
@@ -189,9 +189,9 @@ class TSTrie
                 idx++;
             }
         } 
-        if (node->left) dfs(node->left, paths, fileout);
-        if (node->middle) dfs(node->middle, paths, fileout);
-        if (node->right) dfs(node->right, paths, fileout);  
+        if (node->left) dfs(node->left, idx, paths, fileout);
+        if (node->middle) dfs(node->middle, idx, paths, fileout);
+        if (node->right) dfs(node->right, idx, paths, fileout);  
         
     }
 
