@@ -16,9 +16,10 @@ class RadixTree {
     RadixNode* root = 0;
     
     void find(std::string str, RadixNode* cur, std::ofstream& out, int i = 0, bool partial = false) {
+        int idx = 0;
         if(str == "") {
-            if(partial) return dfs(cur, out);
-            if(cur->content.size() == i && cur->finalNode) return print_cur(cur, out);
+            if(partial) return dfs(cur, idx, out);
+            if(cur->content.size() == i && cur->finalNode) return print_cur(cur, idx, out);
         }
         if(cur->content == "" && cur->children[str[0]])
             return find(str, cur->children[str[0]], out, i, partial);
@@ -30,9 +31,8 @@ class RadixTree {
             find(str, cur->children[str[0]], out, 0, partial);
     }
 
-    void print_cur(RadixNode* cur, std::ofstream& out) {
+    void print_cur(RadixNode* cur, int& idx, std::ofstream& out) {
         std::ifstream file(this->datafile, std::ios::binary);
-        int idx{0};
         std::vector<std::string> paths;
         for(auto dir : cur->dirs) {
             file.seekg(dir);
@@ -44,12 +44,12 @@ class RadixTree {
         findEqual(paths, out);
     }
 
-    void dfs(RadixNode* cur, std::ofstream& out, bool print = true) {
+    void dfs(RadixNode* cur, int& idx, std::ofstream& out, bool print = true) {
         if(!cur) return;
         _memsize += cur->memsize();
-        if(cur->finalNode) if(print) print_cur(cur, out);
+        if(cur->finalNode) if(print) print_cur(cur, idx, out);
         for(auto [ c, child ] : cur->children)
-            dfs(child, out, print);
+            dfs(child, idx, out, print);
     }
 
     void dfs_size(RadixNode* cur) {
